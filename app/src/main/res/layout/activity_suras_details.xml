@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurasDetails"
+    android:background="@drawable/frames3">
+    <ImageView
+        android:id="@+id/imagesura"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_100sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/test"
+        />
+
+    <TextView
+        android:id="@+id/textsuraadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/imagesura"
+        app:layout_constraintEnd_toEndOf="@id/imagesura"
+        app:layout_constraintBottom_toBottomOf="@+id/imagesura"
+        app:layout_constraintStart_toStartOf="@+id/imagesura"
+       android:text="sura"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_23ssp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewverses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textsuraadd"
+        app:layout_constraintVertical_bias="0.258"
+        tools:listitem="@layout/item_verses"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

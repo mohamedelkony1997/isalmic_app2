@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إسلامى</string>
+    <string name="Quaran">قرأن</string>
+    <string name="Ahadees">أحاديث</string>
+    <string name="Radio">راديو</string>
+    <string name="Tasbeeh">"الذكر "</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/qouran"
+        android:title="@string/Quaran"
+        android:icon="@drawable/qouran" />
+    <item android:id="@+id/ahadees"
+        android:title="@string/Ahadees"
+        android:icon="@drawable/qouran" />
+    <item android:id="@+id/radio"
+        android:title="@string/Radio"
+        android:icon="@drawable/radio"
+         />
+    <item android:id="@+id/tasbeeh"
+        android:title="@string/Tasbeeh"
+        android:icon="@drawable/tasbeeh" />
+</menu>
