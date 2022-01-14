@@ -19,6 +19,7 @@
         app:layout_constraintHeight_percent=".4"
         android:adjustViewBounds="true"
         android:layout_marginTop="@dimen/_7sdp"
+        android:scaleType="fitXY"
 
         />
     <androidx.recyclerview.widget.RecyclerView

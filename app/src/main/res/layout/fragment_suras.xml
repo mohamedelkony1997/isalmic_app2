@@ -17,6 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent=".4"
         app:layout_constraintHeight_percent=".4"
+        android:scaleType="fitXY"
         android:adjustViewBounds="true"
         android:layout_marginTop="@dimen/_7sdp"
 

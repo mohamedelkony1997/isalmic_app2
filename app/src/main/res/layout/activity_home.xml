@@ -25,6 +25,7 @@
         app:layout_constraintTop_toTopOf="@+id/framlayout"
         app:layout_constraintBottom_toBottomOf="@+id/framlayout"
         android:layout_gravity="center"
+        android:scaleType="fitXY"
         />
     </FrameLayout>
     <com.google.android.material.bottomnavigation.BottomNavigationView

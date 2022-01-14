@@ -6,15 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".ahadees_details"
     android:background="@drawable/frames2"
+
     >
+
     <ImageView
         android:id="@+id/imageahdees"
-        android:layout_width="@dimen/_170sdp"
-        android:layout_height="@dimen/_130sdp"
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:scaleType="fitXY"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="@dimen/_23sdp"
+        android:layout_marginTop="@dimen/_50sdp"
         android:src="@drawable/news"
         android:adjustViewBounds="true"
 
@@ -49,6 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageahdees"
         tools:listitem="@layout/item_lines"
+        android:layout_marginTop="@dimen/_40sdp"
 
         />
 

@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/drawable/rectangle.xml" value="0.12777777777777777" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/activity_splash.xml" value="0.10989583333333333" />
@@ -11,11 +12,13 @@
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/activity_suras_details.xml" value="0.22" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/details_ahadees.xml" value="0.22" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/fragment_ahadees.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/fragment_radio.xml" value="0.2" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/fragment_suras.xml" value="0.18" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/item_ahadees.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/item_lines.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/item_quran.xml" value="0.2" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/item_verses.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/layout/radio_item.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/menu/islami_items.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/M ELKONY/AndroidStudioProjects/Islami2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12604166666666666" />
       </map>

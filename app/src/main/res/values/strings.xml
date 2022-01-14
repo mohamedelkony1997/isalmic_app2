@@ -4,6 +4,8 @@
     <string name="Ahadees">ahadees</string>
     <string name="Radio">radio</string>
     <string name="Tasbeeh">tasbeeh</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <!-- TODO: Remove or change this placeholder text -->
 
 </resources>

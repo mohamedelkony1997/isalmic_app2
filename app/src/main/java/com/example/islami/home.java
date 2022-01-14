@@ -10,6 +10,10 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public class home extends AppCompatActivity {
 BottomNavigationView navigationView;
 Fragment fragment;
@@ -25,11 +29,14 @@ Fragment fragment;
                  fragment=new surasFragment();
                 }else if(item.getItemId()==R.id.ahadees){
                     fragment=new Ahadees();
+                }else if(item.getItemId()==R.id.radio){
+                   fragment=new RadioFragment();
                 }
                 getSupportFragmentManager().beginTransaction().
                         replace(  R.id.framlayout,fragment).commit();
                 return true;
             }
         });
+
     }
 }
